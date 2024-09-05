@@ -125,13 +125,47 @@
 
     <hr>
 
+
     <!-- Sección: Contacto -->
     <div id="contacto">
         <h2>Contacto</h2>
-        <p>Visita nuestra página oficial: <a href="https://futbol-libre.org/tv1/" target="_blank">Fútbol Libre</a></p>
-    </div>
+        <form action="#" method="POST">
+            <!-- Campo de nombre -->
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
 
-    <hr>
+            <!-- Área de texto para el mensaje -->
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="33" placeholder="Escribe tu mensaje aquí" required></textarea><br><br>
+
+            <!-- Menú desplegable con optgroup -->
+            <label for="motivo">Motivo de contacto:</label><br>
+            <select id="motivo" name="motivo" required>
+                <optgroup label="Consultas Generales">
+                    <option value="soporte">Soporte Técnico</option>
+                    <option value="informacion">Información General</option>
+                </optgroup>
+                <optgroup label="Consultas Específicas">
+                    <option value="partidos">Partidos</option>
+                    <option value="calidad">Calidad de la transmisión</option>
+                </optgroup>
+            </select><br><br>
+
+            <!-- Campo de texto con datalist para autocompletar -->
+            <label for="pais">País:</label><br>
+            <input type="text" id="pais" name="pais" list="paises" placeholder="Selecciona tu país" required>
+            <datalist id="paises">
+                <option value="Argentina">
+                <option value="España">
+                <option value="México">
+                <option value="Brasil">
+                <option value="Chile">
+            </datalist><br><br>
+
+            <!-- Botón de envío -->
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 
 </body>
 </html>
