@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los títulos */
+h1 {
+    color: #0066cc;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+}
+
+/* Estilo para los párrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para los bloques */
+blockquote {
+    font-style: italic;
+    background-color: #e9f5ff;
+    padding: 10px;
+    border-left: 5px solid #0066cc;
+}
+
+/* Estilo para las listas */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Estilo para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #0066cc;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para elementos con clase */
+.highlight {
+    background-color: yellow;
+}
+
+.deleted {
+    color: red;
+    text-decoration: line-through;
+}
+
+/* Estilo para elementos con id */
+#video {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#imagen {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
