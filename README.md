@@ -1,1 +1,2 @@
-[1.Actividad 2.Listas, Multimedia y tablas](actividad2.html)
+[Actividad 2.Listas, Multimedia y tablas](actividad2.html)
+[Ejercicio #1 - Formato de texto, fuentes, fondos y border]()
