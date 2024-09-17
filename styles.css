@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,7 +10,10 @@ body {
     padding: 0;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 .container {
     width: 80%;
     margin: auto;
@@ -17,7 +23,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 h1 {
     color: #0066cc;
     text-align: center;
@@ -29,13 +38,19 @@ h2 {
     padding-bottom: 5px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 p {
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 a {
     color: #0066cc;
     text-decoration: none;
@@ -53,12 +68,18 @@ blockquote {
     border-left: 5px solid #0066cc;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 ul, ol {
     padding-left: 20px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 table {
     width: 100%;
     border-collapse: collapse;
@@ -80,7 +101,10 @@ td {
     background-color: #f9f9f9;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 .highlight {
     background-color: yellow;
 }
@@ -90,7 +114,10 @@ td {
     text-decoration: line-through;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 #video {
     margin-top: 20px;
     text-align: center;
@@ -101,7 +128,10 @@ td {
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac45ae6c05fbd94f9b77e2e9fc88ae6703cbb53f
 footer {
     background-color: #333;
     color: #fff;
