@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Estilo para el contenedor principal */
+
 .container {
     width: 80%;
     margin: auto;
@@ -17,7 +17,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para los títulos */
+
 h1 {
     color: #0066cc;
     text-align: center;
@@ -29,13 +29,13 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Estilo para los párrafos */
+
 p {
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
-/* Estilo para los enlaces */
+
 a {
     color: #0066cc;
     text-decoration: none;
@@ -45,7 +45,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilo para los bloques */
+
 blockquote {
     font-style: italic;
     background-color: #e9f5ff;
@@ -53,12 +53,12 @@ blockquote {
     border-left: 5px solid #0066cc;
 }
 
-/* Estilo para las listas */
+
 ul, ol {
     padding-left: 20px;
 }
 
-/* Estilo para las tablas */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -80,7 +80,7 @@ td {
     background-color: #f9f9f9;
 }
 
-/* Estilo para elementos con clase */
+
 .highlight {
     background-color: yellow;
 }
@@ -90,7 +90,7 @@ td {
     text-decoration: line-through;
 }
 
-/* Estilo para elementos con id */
+
 #video {
     margin-top: 20px;
     text-align: center;
@@ -101,7 +101,7 @@ td {
     margin-top: 20px;
 }
 
-/* Estilo para el pie de página */
+
 footer {
     background-color: #333;
     color: #fff;
