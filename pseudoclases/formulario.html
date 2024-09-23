@@ -1,50 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pseudoclases</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Registro de Cuenta - Racoon Fort</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Ejemplo Completo de Pseudoclases</h1>
+    <div class="form-container">
+        <form action="#" method="post">
+            <h1>Registro de Cuenta</h1>
 
-    <p>Este es el primer párrafo y tiene un estilo especial usando `:first-of-type`.</p>
-    <p>Este es un párrafo común.</p>
+            <!-- Nombre -->
+            <div class="form-group">
+                <label for="nombre">Nombre(s):</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
 
-    <h2>Lista con `:nth-child`</h2>
-    <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-        <li>Elemento 5</li>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-        <li>Elemento 5</li>
-    </ul>
+            <!-- Apellido -->
+            <div class="form-group">
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
+            </div>
 
-    <h2>Enlaces con diferentes pseudoclases</h2>
-    <a href="https://www.google.com">Enlace a Google</a>
-    <a href="https://www.wikipedia.org">Enlace a Wikipedia</a>
-    <a href="https://www.github.com">Enlace a GitHub</a>
+            <!-- Correo Electrónico -->
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            </div>
 
-    <h2>Formulario con `:focus :checked :enabled y :disabled`</h2>
-    <form action="#">
-        <h3>Formulario de contacto</h3>
-        <label for="nombre">Nombre</label>
-        <input id="nombre" class="input-text" type="text" placeholder="Ingresa tu nombre...">
-        <label for="email">Correo electrónico</label>
-        <input id="email" class="input-text" type="email" placeholder="Ingresa tu correo electrónico...">
-        <label for="nombre">Duda/Opinión</label>
-        <textarea id="nombre" class="input-text" type="text" placeholder="Escríbenos tu opinión o tu duda..."></textarea>
-        <label for="disabled-text">Campo disabled</label>
-        <input id="disabled-text" disabled class="input-text" type="text" placeholder="Ingresa tu nombre...">
-        <label for="correos">Acepto correos promocionales</label>
-        <input class="checkbox" id="correos" type="checkbox">
-        <button type="submit">Enviar</button>
-    </form>
+            <!-- Teléfono -->
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono" required>
+            </div>
+
+            <!-- Fecha de Nacimiento -->
+            <div class="form-group">
+                <label for="nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="nacimiento" name="nacimiento" required>
+            </div>
+
+            <!-- Localidad -->
+            <div class="form-group">
+                <label for="localidad">Localidad:</label>
+                <input type="text" id="localidad" name="localidad" placeholder="Tu localidad" required>
+            </div>
+
+            <!-- Botón de Registro -->
+            <button type="submit">Crear Cuenta</button>
+        </form>
+    </div>
 </body>
 </html>

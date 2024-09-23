@@ -1,0 +1,88 @@
+/* Estilo del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #241b35; /* Fondo púrpura oscuro */
+    color: #ffffff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background: #3c2c4a; /* Fondo púrpura más claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilo general del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Grupo de formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilo de las etiquetas */
+label {
+    font-size: 0.9em;
+    color: #bfb8d6; /* Color púrpura claro */
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Estilo de los campos de texto */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #007BFF; /* Azul en el borde cuando esté en foco */
+}
+
+/* Estilo del botón */
+button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Botón más oscuro al pasar el mouse */
+}
+
+/* Estilo de selección de texto */
+::selection {
+    background: #000000;
+    color: #007BFF;
+}
