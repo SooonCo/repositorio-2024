@@ -6,7 +6,7 @@
 
 [Unidad CSS - Ejercicio #2 - Tarjeta](tarjeta.html)
 
-[Unidad CSS - Ejercicio #3 - Header sticky]((actividadPanel/actividadpanel.html))
+[Unidad CSS - Ejercicio #3 - Header sticky](actividadpanel.html))
 
 
 
