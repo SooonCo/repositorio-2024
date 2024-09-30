@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muebles Modernos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header con barra de búsqueda -->
+    <header>
+        <div class="logo">
+            <img class="logo-image" src="img/logo.png" alt="Racoon Fort Logo">
+        </div>
+        <nav class="nav-menu">
+            <a class="nav-link" href="#">RACOON-FORT</a>
+            <a class="nav-link" href="#">Catálogo</a>
+            <a class="nav-link" href="#">Productos</a>
+            <div class="dropdown">
+                <a class="nav-link" href="#">Categorías</a> <!-- Menú desplegable -->
+                <ul class="submenu">
+                    <li><a href="#">Sofás</a></li>
+                    <li><a href="#">Mesas</a></li>
+                    <li><a href="#">Sillas</a></li>
+                    <li><a href="#">Camas</a></li>
+                    <li><a href="#">Escritorios</a></li>
+                </ul>
+            </div>
+            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#">Promociones</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="¿Qué buscas?">
+            <button class="search-btn">
+                <img src="img/buscar.png" alt="Buscar">
+            </button>
+            <img src="img/carrito.png" alt="Carrito" class="cart-icon">
+        </div>
+    </header>
+
+    <!-- Sección de tarjetas -->
+    <div class="tarjetas-contenedor">
+        <div class="tarjeta">
+            <img src="https://www.ikea.com/mx/es/images/products/paerup-sofa-de-2-asientos-gunnared-gris-oscuro__1041901_pe841181_s5.jpg" alt="Sofá Moderno" class="imagen">
+            <div class="contenido">
+                <h3>Sofá Moderno</h3>
+                <p>Este sofá de diseño contemporáneo combina estilo y comodidad. Disponible en varios colores y tejidos.</p>
+                <ul>
+                    <li>Precio: $799</li>
+                    <li>Dimensiones: 200cm x 90cm x 85cm</li>
+                    <li>Material: Tela y madera</li>
+                    <li>Color: Gris oscuro</li>
+                </ul>
+                <a href="#" class="boton">Ver Más</a>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://img.freepik.com/foto-gratis/vista-frontal-concepto-diseno-habitacion-interior_23-2148786434.jpg" alt="Mesa de Centro" class="imagen">
+            <div class="contenido">
+                <h3>Mesa de Centro</h3>
+                <p>Una mesa de centro minimalista de madera y metal, ideal para salas modernas.</p>
+                <ul>
+                    <li>Precio: $249</li>
+                    <li>Dimensiones: 120cm x 60cm x 40cm</li>
+                    <li>Material: Madera de roble y acero</li>
+                    <li>Color: Natural</li>
+                </ul>
+                <a href="#" class="boton">Ver Más</a>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://i.etsystatic.com/14586265/r/il/faaef3/3813134114/il_570xN.3813134114_li7b.jpg" alt="Silla Elegante" class="imagen">
+            <div class="contenido">
+                <h3>Silla Elegante</h3>
+                <p>Una silla ergonómica con tapizado de cuero sintético, perfecta para oficinas y comedores.</p>
+                <ul>
+                    <li>Precio: $199</li>
+                    <li>Dimensiones: 85cm x 45cm x 50cm</li>
+                    <li>Material: Cuero sintético y metal</li>
+                    <li>Color: Negro</li>
+                </ul>
+                <a href="#" class="boton">Ver Más</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
