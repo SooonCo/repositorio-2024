@@ -12,4 +12,7 @@
 
 [Unidad CSS - Ejercicio #5 - Sitio con tarjetas (Flex)](ejercicioSitioTarjetas/index.html)
 
+[Unidad CSS - Ejercicio #6 - Variables y funciones (Commit -m "Variables y funciones")](ejercicioSitioTarjetas/index.html)
+
+
 
