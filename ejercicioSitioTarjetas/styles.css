@@ -1,24 +1,36 @@
+:root {
+    --color-fondo: #f4f4f4;
+    --color-principal: linear-gradient(to bottom, rgb(100, 100, 235), rgb(49, 49, 151));
+    --color-secundario: #e4b141;
+    --padding-caja-contenedor: 20px;
+    --ancho-contenedor: 80%;
+    --color-header-bg: #2B193D;
+    --color-texto-principal: #ffffff;
+    --color-tarjeta-bg: #ffffff;
+    --color-tarjeta-hover: #453060;
+    --color-tarjeta-titulo: #2B193D;
+    --color-tarjeta-texto: #555555;
+}
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
-    background-color: #eeecf0;
+    background-color: var(--color-fondo);
 }
-
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2B193D; 
+    background-color: var(--color-header-bg); 
     padding: 10px 20px;
     width: 100vw;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-radius: 40px; /* Bordes redondeados */
+    border-radius: 40px;
     box-sizing: border-box;
 }
 
@@ -34,7 +46,7 @@ header {
 }
 
 .nav-link {
-    color: #ffffff;
+    color: var(--color-texto-principal);
     text-decoration: none;
     font-size: 16px; 
     font-weight: 500;
@@ -54,14 +66,13 @@ header {
 .submenu {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: var(--color-tarjeta-bg);
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 5px;
     padding: 0;
 }
-
 
 .submenu li {
     list-style: none;
@@ -79,19 +90,17 @@ header {
 
 .dropdown .nav-link {
     appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     background: none;
     border: none;
     padding: 0;
     font-size: 16px;
     font-weight: 500;
-    color: white;
+    color: var(--color-texto-principal);
     cursor: pointer;
 }
 
 .submenu li:hover {
-    background-color: #f1f1f1;
+    background-color: var(--color-secundario);
 }
 
 .dropdown:hover .submenu {
@@ -142,7 +151,7 @@ header {
 }
 
 .tarjeta {
-    background-color: #ffffff;
+    background-color: var(--color-tarjeta-bg);
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -174,13 +183,13 @@ header {
 .contenido h3 {
     margin: 0;
     font-size: 20px;
-    color: #2B193D;
+    color: var(--color-tarjeta-titulo);
     grid-row: 1; 
 }
 
 .contenido p {
     font-size: 14px;
-    color: #555555;
+    color: var(--color-tarjeta-texto);
     grid-row: 2; 
 }
 
@@ -203,8 +212,8 @@ ul li {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #2B193D;
-    color: white;
+    background-color: var(--color-header-bg);
+    color: var(--color-texto-principal);
     text-decoration: none;
     border-radius: 20px;
     font-size: 14px;
@@ -213,5 +222,5 @@ ul li {
 }
 
 .boton:hover {
-    background-color: #453060;
+    background-color: var(--color-tarjeta-hover);
 }
