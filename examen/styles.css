@@ -1,0 +1,83 @@
+.navbar-custom {
+    background-color: #2B193D;
+}
+
+.navbar .logo-image {
+    height: 50px;
+}
+
+.navbar .racoonfort {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.form-inline .form-control {
+    width: 250px;
+}
+
+.tarjetas-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    background-color: #f5f3f3;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px; 
+    padding: 20px;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
+
+.imagen {
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.contenido {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}

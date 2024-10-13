@@ -43,7 +43,7 @@ header {
 
 .logo img {
     height: 40px;
-    margin-right: 10px; /* Espacio entre el logo y el texto */
+    margin-right: 10px; 
 }
 
 .racoonfort {
@@ -54,7 +54,7 @@ header {
 
 .nav-menu {
     display: flex;
-    justify-content: center; /* Centra las opciones del menú */
+    justify-content: center; 
     align-items: center;
     gap: 60px; 
     flex-grow: 1;
@@ -109,7 +109,7 @@ header {
     border-radius: 5px;
     padding: 5px 10px;
     max-width: 200px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -161,7 +161,7 @@ header {
 
 .tarjeta {
     background-color: var(--color-tarjeta-bg);
-    border-radius: 0px; /* Bordes redondeados por defecto */
+    border-radius: 0px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
 }
@@ -169,7 +169,7 @@ header {
 .tarjeta:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 0px; /* Bordes cuadrados al hacer hover */
+    border-radius: 0px; 
 }
 
 .imagen {
@@ -244,14 +244,12 @@ ul {
 
 @media (max-width: 768px) {
     .nav-menu {
-        gap: 20px; /* Reduce el espacio entre los elementos en pantallas pequeñas */
+        gap: 20px; 
     }
 
     .search-container {
-        display: none; /* Oculta la barra de búsqueda en pantallas pequeñas */
+        display: none;
     }
 
-    .cart-container {
-        margin-left: 20px; /* Espaciado del carrito en pantallas pequeñas */
-    }
+    
 }
