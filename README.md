@@ -16,7 +16,7 @@
 
 [Unidad CSS - Ejercicio #7 - CSS Grid (Commit -m "Actividad 7: CCS Grid")](ejercicioSitioTarjetas/index.html)
 
-[Unidad CSS - Ejercicio #8-  Sitio responsivo (Commit -m "Ejercicio 8")](ejercicioSitioTarjetas/index.html)
+[Unidad CSS - Ejercicio #8-  Sitio responsivo (Commit -m "Corrigiendo ejercicio 8")](ejercicioSitioTarjetas/index.html)
 
 
 
