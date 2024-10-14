@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Muebles</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS personalizado -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
         <img class="logo-image" src="img/logo.png" alt="Racoon Fort Logo">
         <span class="racoonfort">RACOON-FORT</span>
@@ -18,9 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Categorías
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorías</a>
                     <div class="dropdown-menu" aria-labelledby="categoriasDropdown">
                         <a class="dropdown-item" href="#">Sofás</a>
                         <a class="dropdown-item" href="#">Mesas</a>
@@ -28,23 +26,17 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="promocionesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Promociones
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="promocionesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Promociones</a>
                     <div class="dropdown-menu" aria-labelledby="promocionesDropdown">
                         <a class="dropdown-item" href="#">Descuentos</a>
                         <a class="dropdown-item" href="#">Ofertas</a>
                         <a class="dropdown-item" href="#">Liquidaciones</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Carrito</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="productotemporada.html">Productos de Temporada</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Carrito</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
             </ul>
-            <!-- Barra de búsqueda -->
             <form class="form-inline ml-lg-3">
                 <input class="form-control mr-sm-2" type="search" placeholder="Buscar productos..." aria-label="Search">
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
@@ -52,116 +44,71 @@
         </div>
     </nav>
 
-    <!-- Sección de tarjetas -->
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-4 tarjeta">
-                <img src="https://www.ikea.com/mx/es/images/products/paerup-sofa-de-2-asientos-gunnared-gris-oscuro__1041901_pe841181_s5.jpg" alt="Sofá Moderno" class="imagen">
-                <div class="contenido">
-                    <h3>Sofá Moderno</h3>
-                    <p>Este sofá de diseño contemporáneo combina estilo y comodidad. Disponible en varios colores y tejidos.</p>
-                    <ul>
-                        <li>Precio: $799</li>
-                        <li>Color: Gris oscuro</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary">Ver Más</a>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="tarjeta">
+                            <img src="https://www.ikea.com/mx/es/images/products/paerup-sofa-de-2-asientos-gunnared-gris-oscuro__1041901_pe841181_s5.jpg" alt="Sofá Moderno" class="imagen">
+                            <div class="contenido">
+                                <h3>Sofá Moderno</h3>
+                                <p class="precio">$2,199</p>
+                                <a href="detalles_sofa.html" class="btn btn-primary">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="tarjeta">
+                            <img src="https://img.freepik.com/foto-gratis/vista-frontal-concepto-diseno-habitacion-interior_23-2148786434.jpg" alt="Mesa de Centro" class="imagen">
+                            <div class="contenido">
+                                <h3>Mesa de Centro</h3>
+                                <p class="precio">$1,499</p>
+                                <a href="detalles_mesa.html" class="btn btn-primary">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="tarjeta">
+                            <img src="https://i.etsystatic.com/14586265/r/il/faaef3/3813134114/il_570xN.3813134114_li7b.jpg" alt="Silla Elegante" class="imagen">
+                            <div class="contenido">
+                                <h3>Silla Elegante</h3>
+                                <p class="precio">$6,129</p>
+                                <a href="detalles_silla.html" class="btn btn-primary">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="tarjeta">
+                            <img src="https://www.ikea.com/mx/es/images/products/ridspoe-escritorio-roble__1188767_pe899574_s5.jpg?f=s" alt="Escritorio de Roble" class="imagen">
+                            <div class="contenido">
+                                <h3>Escritorio de Roble</h3>
+                                <p class="precio">$1,450</p>
+                                <a href="detalles_escritorio.html" class="btn btn-primary">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-4 tarjeta">
-                <img src="https://img.freepik.com/foto-gratis/vista-frontal-concepto-diseno-habitacion-interior_23-2148786434.jpg" alt="Mesa de Centro" class="imagen">
-                <div class="contenido">
-                    <h3>Mesa de Centro</h3>
-                    <p>Una mesa de centro minimalista de madera y metal, ideal para salas modernas.</p>
-                    <ul>
-                        <li>Precio: $249</li>
-                        <li>Color: Natural</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary">Ver Más</a>
+            <div class="col-md-4">
+                <h3 class="text-center">Ofertas por Tiempo Limitado</h3>
+                <div class="oferta">
+                    <img src="https://assets.hotsale.com.mx/accounts/2/events/2/editions/32/promotions/93442/media/89144f6f-6177-45fb-9d58-73dfd729b3dd.webp" alt="Oferta 1" class="img-fluid">
+                    <p class="precio text-center">$3,999</p>
                 </div>
-            </div>
-
-            <div class="col-md-4 tarjeta">
-                <img src="https://i.etsystatic.com/14586265/r/il/faaef3/3813134114/il_570xN.3813134114_li7b.jpg" alt="Silla Elegante" class="imagen">
-                <div class="contenido">
-                    <h3>Silla Elegante</h3>
-                    <p>Una silla ergonómica con tapizado de cuero sintético, perfecta para oficinas y comedores.</p>
-                    <ul>
-                        <li>Precio: $199</li>
-                        <li>Color: Negro</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary">Ver Más</a>
+                <div class="oferta">
+                    <img src="https://mubson.com/cdn/shop/files/Mesa-de-trabajo-3.webp?v=1699980831&width=1200" alt="Oferta 2" class="img-fluid">
+                    <p class="precio text-center">Aproveche las ofertas por tiempo limitado</p>
                 </div>
-            </div>
-
-            <!-- Tarjeta adicional 1 -->
-            <div class="col-md-4 tarjeta">
-                <img src="https://nuukconcept.mx/cdn/shop/products/C-EXPANm_720x.jpg?v=1639524246" alt="Mesa Extensible" class="imagen">
-                <div class="contenido">
-                    <h3>Mesa Extensible</h3>
-                    <p>Esta mesa se adapta a tus necesidades, perfecta para espacios pequeños o reuniones.</p>
-                    <ul>
-                        <li>Precio: $299</li>
-                        <li>Color: Marrón</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary">Ver Más</a>
-                </div>
-            </div>
-
-            <!-- Tarjeta adicional 2 -->
-            <div class="col-md-4 tarjeta">
-                <img src="https://m.media-amazon.com/images/I/61SiTzUiWFL._AC_UF894,1000_QL80_.jpg" alt="Sofá Vintage" class="imagen">
-                <div class="contenido">
-                    <h3>Sofá Vintage</h3>
-                    <p>Un sofá con un estilo retro que añadirá un toque de nostalgia a tu sala de estar.</p>
-                    <ul>
-                        <li>Precio: $699</li>
-                        <li>Color: Azul</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary">Ver Más</a>
-                </div>
-            </div>
-
-            <!-- Tarjeta adicional 3 -->
-            <div class="col-md-4 tarjeta">
-                <img src="https://http2.mlstatic.com/D_Q_NP_798337-MLU74545862573_022024-O.webp" alt="Cama Alta con Escritorio" class="imagen">
-                <div class="contenido">
-                    <h3>Cama Alta con Escritorio</h3>
-                    <p>Ideal para espacios pequeños, esta cama alta incluye un escritorio funcional debajo.</p>
-                    <ul>
-                        <li>Precio: $499</li>
-                        <li>Color: Negro</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary">Ver Más</a>
+                <div class="oferta">
+                    <img src="https://pbs.twimg.com/media/Dw4YkljXQAEtXwN.jpg" alt="Oferta 3" class="img-fluid">
+                    <p class="precio text-center">Las mejores ofertas</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Pie de página -->
-    <footer class="bg-light text-center text-lg-start mt-5">
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Mi Tienda</h5>
-                    <p>Aquí puedes incluir información sobre tu tienda o enlaces útiles.</p>
-                </div>
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Enlaces útiles</h5>
-                    <ul class="list-unstyled mb-0">
-                        <li><a href="#" class="text-dark">Política de privacidad</a></li>
-                        <li><a href="#" class="text-dark">Términos y condiciones</a></li>
-                        <li><a href="#" class="text-dark">Preguntas frecuentes</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="text-center p-3 bg-dark text-white">
-            © 2024 Mi Tienda - Todos los derechos reservados.
-        </div>
-    </footer>
-
-    <!-- Script de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

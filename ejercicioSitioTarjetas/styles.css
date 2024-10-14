@@ -242,14 +242,3 @@ ul {
 }
 
 
-@media (max-width: 768px) {
-    .nav-menu {
-        gap: 20px; 
-    }
-
-    .search-container {
-        display: none;
-    }
-
-    
-}
