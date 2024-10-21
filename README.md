@@ -23,7 +23,7 @@
 
 [Unidad JavaScript - Ejercicio #1](JavaScript/Ejercicio1/calculadora.js)
 
-[Unidad JavaScript - Ejercicio #2](JavaScript/Ejercicio1/calculadora.js)
+[Unidad JavaScript - Ejercicio #2](Ejercicio2JS)
 
 
 
