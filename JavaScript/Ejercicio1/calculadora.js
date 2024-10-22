@@ -21,7 +21,7 @@ function calcular(numero1, numero2, operacion) {
             resultado = numero1 / numero2;
             break;
         default:
-            return "La operación es invalida";
+            return "La operación es invalida...";
     }
 
     return resultado;

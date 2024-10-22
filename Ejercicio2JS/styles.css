@@ -1,4 +1,4 @@
-/* Centrar el body y la tarjeta */
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -9,7 +9,6 @@ body {
     background-color: #f8f9fa;
 }
 
-/* Estilo para la tarjeta en el centro */
 .tarjeta {
     text-align: center;
     padding: 30px;
