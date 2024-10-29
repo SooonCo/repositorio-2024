@@ -13,16 +13,13 @@ function calcular() {
         let resultado = eval(operacionActual);
 
         if (isNaN(resultado) || !isFinite(resultado)) {
-            throw new Error("Operación inválida o división por cero.");
+            throw new Error("Operación inválida...");
         }
 
-        // Mostrar resultado en pantalla
         pantalla.value = resultado;
 
-        // Agregar operación y resultado al historial
         agregarAlHistorial(operacionActual + ' = ' + resultado);
 
-        // Restablecer operación actual
         operacionActual = '';
         resultadoActual = resultado;
 
@@ -43,6 +40,6 @@ function agregarAlHistorial(operacion) {
     nuevoItem.textContent = operacion;
     listaOperaciones.appendChild(nuevoItem);
 
-    // Hacer scroll automático al final
+  
     listaOperaciones.scrollTop = listaOperaciones.scrollHeight;
 }
