@@ -31,6 +31,10 @@
 
 [Unidad JavaScript - Ejercicio #5](Ejercicio5JS)
 
+[Unidad JavaScript - Ejercicio #6](Ejercicio6JS)
+
+
+
 
 
 
