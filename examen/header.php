@@ -12,7 +12,11 @@
     <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
         <a class="navbar-brand d-flex align-items-center" href="index.php">
             <img src="img/logo.png" alt="Logo" class="d-inline-block align-top" style="height: 40px;">
+<<<<<<< HEAD
             <span class="ml-2" style="color: white; font-size: 18px;">RACOON-FORT</span>
+=======
+            <span class="ml-2" style="color: white; font-size: 18px;">Inicio</span>
+>>>>>>> 56ed844e96616cf3e7933303f2fc4c4943c77a11
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
