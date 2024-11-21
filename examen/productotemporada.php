@@ -9,24 +9,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<<<<<<< HEAD
+
 <?php include 'header.php'; ?>
-=======
-    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" class="d-inline-block align-top" style="height: 40px;"></a>
-        <span class="racoonfort">Inicio</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Categorías</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Promociones</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-            </ul>
-        </div>
-    </nav>
->>>>>>> 56ed844e96616cf3e7933303f2fc4c4943c77a11
 
     <div class="container mt-5">
         <h1 class="text-center" style="font-family: 'Arial', sans-serif;">Productos de Temporada</h1>
