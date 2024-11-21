@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <a class="navbar-brand d-flex align-items-center" href="index.php">
             <img src="img/logo.png" alt="Logo" class="d-inline-block align-top" style="height: 40px;">
             <span class="ml-2" style="color: white; font-size: 18px;">Inicio</span>
         </a>
