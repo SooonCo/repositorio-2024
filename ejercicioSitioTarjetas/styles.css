@@ -1,0 +1,244 @@
+:root {
+    --color-fondo: #f4f4f4;
+    --color-principal: linear-gradient(to bottom, rgb(100, 100, 235), rgb(49, 49, 151));
+    --color-secundario: #e4b141;
+    --padding-caja-contenedor: 20px;
+    --ancho-contenedor: 80%;
+    --color-header-bg: #2B193D;
+    --color-texto-principal: #ffffff;
+    --color-tarjeta-bg: #ffffff;
+    --color-tarjeta-hover: #453060;
+    --color-tarjeta-titulo: #2B193D;
+    --color-tarjeta-texto: #555555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: var(--color-fondo);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-header-bg);
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px; 
+}
+
+.racoonfort {
+    font-size: 1rem;
+    color: var(--color-texto-principal);
+    margin-left: 10px; 
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 60px; 
+    flex-grow: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--color-texto-principal);
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--color-secundario);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color-tarjeta-bg);
+    list-style: none;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 10px 20px;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: var(--color-tarjeta-texto);
+}
+
+.submenu li a:hover {
+    color: var(--color-secundario);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    max-width: 200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search-input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.search-btn img {
+    width:15px;
+}
+
+.cart-container {
+    display: flex;
+    align-items: center;
+}
+
+.cart-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 30px;
+}
+
+
+.tarjetas-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: var(--ancho-contenedor);
+}
+
+.tarjeta {
+    background-color: var(--color-tarjeta-bg);
+    border-radius: 0px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 0px; 
+}
+
+.imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contenido {
+    padding: 15px;
+}
+
+h3 {
+    color: var(--color-tarjeta-titulo);
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 0;
+    color: var(--color-tarjeta-texto);
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: var(--color-secundario);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: darken(var(--color-secundario), 10%);
+}
+
+.seccion-nueva {
+    padding: 40px 0;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.seccion-nueva h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--color-header-bg);
+}
+
+.ofertas-contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: var(--ancho-contenedor);
+    margin: 0 auto;
+}
+
+.oferta-item {
+    background-color: var(--color-tarjeta-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-oferta {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
