@@ -19,7 +19,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
+               
+            
+            
+        <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorías</a>
                     <div class="dropdown-menu" aria-labelledby="categoriasDropdown">
                         <a class="dropdown-item" href="#">Sofás</a>
@@ -27,7 +30,7 @@
                         <a class="dropdown-item" href="#">Sillas</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="promocionesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Promociones</a>
                     <div class="dropdown-menu" aria-labelledby="promocionesDropdown">
                         <a class="dropdown-item" href="#">Descuentos</a>
