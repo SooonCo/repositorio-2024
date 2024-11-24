@@ -25,7 +25,7 @@
     <nav>
         <ul>
             <li><a class="navigation-link" href="<?=BASE_URL?>">Inicio</a></li>
-            <li><a class="navigation-link" href="#">Productos de temporada</a></li>
+            <li><a class="navigation-link" href="#">Promociones</a></li>
             <li><a class="navigation-link" href="#">Categorias</a>
                 <ul class="submenu">
                     <?php foreach($careers as $career): ?>
@@ -34,8 +34,8 @@
     
                 </ul>
             </li>
-            <li><a class="navigation-link" href="#">Contactos</a></li>
             <li><a class="navigation-link" href="#">Carrito</a></li>
+            <li><a class="navigation-link" href="#">Contacto</a></li>
         </ul>
     </nav>
 </header>
