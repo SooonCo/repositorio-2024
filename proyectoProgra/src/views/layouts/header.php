@@ -1,6 +1,6 @@
 <?php 
     require __DIR__.'/../../helpers/functions.php';
-    $careers = getCareers();
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,13 +28,13 @@
                 <span class="ml-2" style="color: white; font-size: 18px; font-weight: bold">RACOON-FORT</span>
                 <li><a class="navigation-link" href="#">Productos de temporada</a></li>
                 <li><a class="navigation-link" href="#">Promociones</a></li>
-                <li><a class="navigation-link" href="#">Descuentos</a></li>
+                <li><a class="navigation-link" href="<?=BASE_URL?>/../src/views/usuarios/register.php">Registrarse</a></li>
                 <li><a class="navigation-link" href="#">Categorías</a>
-                    <ul class="submenu">
-                        <?php foreach ($careers as $career): ?>
-                        <li><a href="<?=BASE_URL?>/../src/views/careers/details.php?career=<?=$career['abbreviation']?>"><?=$career['name']?></a></li>
+                <ul class="submenu">
+                    <?php foreach ($categories as $category): ?>
+                        <li><a href="<?=BASE_URL?>/../src/views/categories/details.php?category=<?=$category['abbreviation']?>"><?=$category['name']?></a></li>
                         <?php endforeach; ?>
-                    </ul>
+                </ul>
                 </li>
                 <li><a class="navigation-link" href="#">Contactos</a></li>
                 
